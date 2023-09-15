@@ -8,12 +8,16 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import GoogleIcon from '@mui/icons-material/Google';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { useNavigate } from 'react-router-dom';
-import { toast } from "react-hot-toast";
+import toast, { Toaster } from 'react-hot-toast';
 
 const Signup = () => {
     const navigate = useNavigate();
+    const handleSignUp =()=>{
+        toast.success("Signup successfull")
+    }
   return (
     <div className='Signup-page'>
+        <Toaster/>
     <div className='Signup-page-box'>
         <div className='Signup-page-box-left'>
              <h1>Welcome Back!</h1>
@@ -37,7 +41,7 @@ const Signup = () => {
         </div>
         <div className='Signup-page-box-right-button'>
 
-        <Button color='success' variant="contained">Signup</Button>
+        <Button color='success' variant="contained" onClick={handleSignUp}>Signup</Button>
         </div>
         <div className='Signup-page-box-right-bottom'>
             

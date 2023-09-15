@@ -1,6 +1,6 @@
 .Signup-page{
     height: 100vh;
-    background-color: rgb(51, 84, 204);
+    background: linear-gradient(90deg, rgba(40,227,121,1) 1%, rgba(9,121,103,1) 41%, rgba(255,0,194,1) 100%);
 }
 
 
