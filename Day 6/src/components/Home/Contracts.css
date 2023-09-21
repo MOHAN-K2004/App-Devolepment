@@ -1,0 +1,26 @@
+.Home-contracts-page{
+    display: flex;
+}
+.HomePage-contract-table table tr:hover {background-color: coral;}
+.HomePage-contract-table table{
+    position: absolute;
+    top: 250px;
+    border: 2px solid forestgreen;
+}
+.HomePage-contract-table table th, td {
+    border-bottom: 1px solid #ddd;
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:blue;
+
+ 
+  }
+  .HomePage-contract-table h1{
+    position: absolute;
+    top: 100px;
+    font-family: 'Poppins', sans-serif;
+    left: 220px;
+    color: rgb(255, 174, 0);
+  }
