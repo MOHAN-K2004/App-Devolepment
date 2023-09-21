@@ -1,0 +1,75 @@
+.Navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.704);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    align-items: center;
+}
+.Navbar h1{
+    position:absolute;
+    left: 120px;
+    top: -10px;
+    color: black;
+}
+.Navbar img{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+
+}
+.Navbar-search-box{
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar-search-box input{
+    font-family: 'Poppins';
+    padding: 25px 0;
+    position: absolute;
+    top: 15px;
+    right: 500px;
+    border-radius: 2px;
+    height:35px;
+    width: 300px;
+    outline: none;
+    margin-left: 60px;
+    border: none;
+    text-indent: 10px;
+    background-color: #e9ebf0;
+    border-radius: 5px;
+}
+
+.Navbar {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+.Navbar-loginid{
+    position: absolute;
+    right: 100px;
+    color: black;
+   top: 26px;
+}
+.navbar-profileicon{
+    position: absolute;
+    top: -5px;
+    left: -40px;
+}
+.navbar-notificationicon{
+    position: absolute;
+    top: 20px;
+     right: 380px;
+     color: black;
+    }
+.navbar-settingsicon{
+    position: absolute;
+    top: 20px;
+     right: 450px;
+     color: black;
+    
+}

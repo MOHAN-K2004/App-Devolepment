@@ -1,0 +1,17 @@
+.Home-complients-page{
+    display: flex;
+}
+.HomePage-complients-Content {
+    font-family: 'Poppins', sans-serif;
+}
+.HomePage-complients-Content h1{
+    color: green;
+    margin-left: 20px;
+}
+.HomePage-complients-Content img{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
