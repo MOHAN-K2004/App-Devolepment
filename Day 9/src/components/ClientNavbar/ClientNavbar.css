@@ -1,0 +1,67 @@
+.ClientNavbar{
+    height: 100px;
+    width: 100vw;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 50;
+   
+    
+}
+.ClientNavbar-left-downarrow{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ClientNavbar-left p{
+    width: 130px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+.ClientNavbar-left img{
+    margin-left: 20px;
+}
+.ClientNavbar-left{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ClientNavbar-right p{
+   width: 180px;
+   
+}
+
+.ClientNavbar-right{
+        font-family: 'Poppins', sans-serif;
+    color: blue;
+    /* font-size: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ClientNavbar-right-icon3{ 
+    background-color: #3e27b7;
+    border-radius: 15px;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+  text-align: center;
+
+    margin-right: 30px;
+
+    color: white;
+}.ClientNavbar-loginbutton{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.ClientNavbar-loginbutton-icon{
+    color: black;
+    margin-right: 10px;
+    font-size: 30px;
+}

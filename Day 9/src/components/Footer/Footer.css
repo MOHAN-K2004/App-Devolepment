@@ -1,0 +1,161 @@
+.ClientHome-container6{
+    height: 600px;
+    width: 100vw;
+    margin-top: 100px;
+    background-color: #190b5d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ClientHome-container6-one{
+    display: flex;
+    flex-direction: column;
+  
+}
+.ClientHome-container6-two-top-button{
+    border: none;
+    border-radius: 10px;
+    background-color: #6c6a72;
+}
+.ClientHome-container6-one img{
+    padding: 20px;
+}
+.ClientHome-container6-two p{
+    color: orange;
+}
+.ClientHome-container6-three p{
+    color: orange;
+}
+.ClientHome-container6-four p{
+    color: orange;
+}
+.ClientHome-container6-five p{
+    color: orange;
+}
+.ClientHome-container6-six p{
+    color: orange;
+}
+.ClientHome-container6-three h6:hover{
+    color: #b58fc9;
+    cursor: pointer;
+}
+.ClientHome-container6-four h6:hover{
+    cursor: pointer;
+    color: #b58fc9;
+}
+.ClientHome-container6-five h6:hover{
+    cursor: pointer;
+    color: #b58fc9;
+}
+.ClientHome-container6-six h6:hover{
+    color: #b58fc9;
+    cursor: pointer;
+}
+.ClientHome-container6-two h6:hover{
+    cursor: pointer;
+    color: #b58fc9;
+}
+.ClientHome-container6 h6{
+    margin: 5px;
+    font-weight: 400;
+}
+.ClientHome-container6-two {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    
+
+
+}
+.ClientHome-container6-three {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    
+
+
+}
+.ClientHome-container6-four {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    
+
+
+}
+.ClientHome-container6-five {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    
+
+
+}
+.ClientHome-container6-six h5:hover {
+    cursor: pointer;
+    color: #b58fc9;
+}
+.ClientHome-container6-six {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    
+
+
+}
+
+.ClientHome-container6-six-bottom-media-icons img{
+color: white;
+}
+.ClientHome-container6-six-bottom-mobileicon{
+
+    font-size: 20px;
+}
+.ClientHome-container6-six-bottom-media-icons {
+    display: flex;
+    justify-content: space-between;
+   margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    z-index: 50px;
+    color: white;
+}
+
+.ClientHome-container7{
+    height: 150px;
+    width: 100vw;
+    background-color: #190b5d;
+    border-top:2px solid rgb(135, 134, 134);
+}
+.ClientHome-container7{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ClientHome-container7-right{
+display: flex;
+color: white;
+align-items: center;}
+.ClientHome-container7-left {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    font-family: "Poppins";
+    margin-left: 50px;
+    font-weight: lighter;
+}
+.ClientHome-container7-left h6{
+    font-weight: 300;
+
+}
+
+.ClientHome-container7-left h6:hover{
+    color: #6c6a72;
+}
