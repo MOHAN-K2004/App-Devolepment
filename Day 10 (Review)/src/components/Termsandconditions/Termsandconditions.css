@@ -1,0 +1,17 @@
+.Termsandconditions-container {
+  padding-top: 100px;
+}
+.Termsandconditions-container1 {
+  color: #190b5d;
+  margin-left: 300px;
+  font-family: "Poppins";
+  margin-top: 10px;
+}
+.Termsandconditions-container2 {
+  width: 1100px;
+  margin-left: 200px;
+}
+.Termsandconditions-container2 p {
+  padding: 20px;
+  line-height: 2;
+}

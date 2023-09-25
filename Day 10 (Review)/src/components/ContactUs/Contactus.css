@@ -1,0 +1,52 @@
+.Contactus-container{
+    padding-top: 150px;
+}
+.Contactus-containerbox {
+    width: 700px;
+    height: 800px;
+    margin-left: 500px;
+    border-radius: 15px;
+    border: 2px solid black;
+
+    font-family: "Poppins";
+    
+}
+.Contactus-list{
+    display: flex;
+    flex-direction: column;
+  line-height: 4;
+    text-align: start;
+ margin-top: 50px;
+ margin-left: 10px;
+ width: 100%;
+}
+.Contactus-containerbox form h2{
+    margin-left: 250px;
+    font-family: 'Poppins';
+}
+.Contactus-containerbox textarea{
+    width: 500px;
+}
+.Contactus-containerbox select{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 40px;
+}
+.Contactus-containerbox input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 40px;
+    border: 1px solid black;
+
+}
+.Contactus-list-submitbutton{
+
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.Contactus-list label{
+     color: blue;
+}

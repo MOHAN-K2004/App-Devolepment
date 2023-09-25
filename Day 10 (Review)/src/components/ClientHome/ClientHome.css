@@ -1,0 +1,235 @@
+.ClientHome{
+    padding-top: 100px;
+    
+}
+.ClientHome-container1{
+    height: 800px;
+    width: 100vw;
+    background-color: #332a5d;
+}
+.ClientHome-container1-right img{
+    height: 550px;
+    margin-top: 100px;
+    margin-right: 50px;
+    width: 850px;
+    
+}
+.ClientHome-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ClientHome-container2 img{
+    width: 100vw;
+    
+}
+.ClientHome-container1-Left{
+    display: flex;
+   flex-direction: column;
+   margin-top: 100px;
+   margin-left: 100px;
+}
+.ClientHome-container1-Left h1{
+    color:white;
+    margin-top: 20px;
+    font-size: 4.625rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.ClientHome-container1-Left-text{
+    color: white;
+    font-size: 1.375rem;
+    max-width: 25.625rem;
+}
+.ClientHome-container1-Left-text1{
+    margin-top: -20px;
+    font-size: .75rem;
+    color: white;
+}
+.Client-container1-Left-typewritter{
+    
+    color:rgb(253, 188, 44);
+    font-family: 'Caveat', cursive;
+   
+        font-weight: 700;
+        font-size: 65px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 50px; */
+        /* background: green; */
+    
+    
+}
+.ClientHome-container1-Left-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ClientHome-container1-Left-icons h1:hover{
+    background-color: rgb(159, 236, 236);
+}
+.ClientHome-container1-Left-icons h1{
+    font-size: 20px;
+    color: rgb(51, 42, 93);
+    
+    padding: 20px;
+    border-radius: 10px;
+    text-indent: 10px;
+    background-color: aqua;
+    width: 200px;
+}
+.ClientHome-container1-Left-icons h6:hover{
+    
+    color: rgb(51, 42, 93);
+    background-color: rgb(159, 236, 236);
+}
+.ClientHome-container1-Left-icons h6{
+    font-size: 20px;
+    color:#9bfffd;
+     width: 200px;
+    
+    padding: 16px;
+    margin-left:30px ;
+    border-radius: 10px;
+    border: 2px solid #9bfffd ;
+    text-indent: 10px;
+ 
+   
+}
+.ClientHome-container3 p{
+    padding-right: 100px;
+    font-size:25px;
+    font-family: 'Poppins';
+    color: #6c6a72;
+}
+.ClientHome-container3 p1{
+    font-family: 'Poppins', sans-serif;
+    padding-right: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #190b5d;
+}
+.ClientHome-container3 p2{
+    font-weight: 500;
+    color: #190b5d;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 100px;
+    font-size: 27px;
+}
+.ClientHome-container3{
+    width: 100vw;
+    height: 200px;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.ClientHome-container3-one{
+    flex-direction: column;
+  
+    
+    border-right: 2px solid black;
+}
+.ClientHome-container3-two{
+  
+    
+    border-right: 2px solid black;
+}
+.ClientHome-container3-three{
+  
+    
+    border-right: 2px solid black;
+}
+.ClientHome-container2{
+   color: #190b5d;
+}
+.ClientHome-container-5{
+    height: 100px;
+    width: 100vw;
+    margin-top: 100px;
+    /* background-color: red; */
+}
+.ClientHome-container5 img{
+    height: 100px;
+    width: 900px;
+    margin-top: 130px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ClientHome-container4{
+    /* display: flex; */
+    margin-top: 200px;
+}
+
+.ClientHome-container5-right {
+
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    color: rgb(var(--azure-60));
+    font-family: var(--shift);
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.875rem;
+    margin-bottom: .6875rem;
+    /* text-align: left; */
+    /* display: block; */
+    margin-block-start: -5em;
+    /* margin-block-end: 1em; */
+    margin-inline-start: 20px;
+    margin-inline-end: 260px;
+    /* display: flex; */
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 5rem;
+
+}
+    
+.ClientHome-container5-left img{
+    height: 400px;
+    width: 550px;
+    margin-left: 100px;
+    border-bottom-left-radius: 130px;
+}
+.ClientHome-container4-text1{
+
+    height: 50px;
+    font-family: 'Poppins';
+    color: #190b5d;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 600px;
+
+}
+.ClientHome-container5-conttent{
+ 
+    display: flex;
+    
+    margin-top: 100px;
+    margin-left:10px ;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.ClientHome-messageicon{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    background-color :rgb(253, 188, 44);
+    
+    color: #332a5d;
+    box-shadow:  #332a5d 0px 5px 15px;
+    border-radius: 5px;
+    
+
+}
