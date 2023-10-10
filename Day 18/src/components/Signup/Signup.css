@@ -1,0 +1,136 @@
+.Signup-page {
+  height: 100vh;
+  width: 100vw;
+ 
+  background-color: #190b5d;
+}
+
+.Signup-page-box {
+  box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+  background-color: white;
+  height: 600px;
+  width: 1000px;
+  display: flex;
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 400px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.Signup-page-box-left {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 600px;
+  width: 400px;
+  background-color: rgb(41, 128, 109);
+}
+.Signup-page-box-left h1 {
+  position: absolute;
+  top: 180px;
+  left: 50px;
+  color: #190b5d;
+}
+.Signup-page-box-left h7 {
+  position: absolute;
+  top: 280px;
+  left: 50px;
+  color: white;
+}
+.Signup-page-box-left h8 {
+  position: absolute;
+  top: 310px;
+  left: 70px;
+  color: white;
+}
+.Signup-page-box-left button {
+  position: absolute;
+  top: 390px;
+  left: 100px;
+  border-radius: 30px;
+  height: 40px;
+  width: 150px;
+  cursor: pointer;
+  border: none;
+}
+/* .Signup-page-box-middle img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    bottom: none;
+
+    z-index: index b;;
+    left: 20px;
+} */
+.Signup-page-box-right h1 {
+  position: absolute;
+  top: 50px;
+  right: 220px;
+
+  color: rgb(41, 128, 109);
+}
+.Signup-page-box-right input {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  height: 40px;
+  width: 300px;
+  margin-left: 300px;
+  border-radius: 6px;
+  border-style: dashed;
+  text-indent: 45px;
+  background-color: rgb(240, 244, 243);
+}
+.Signup-page-box-right-icon1 {
+  position: absolute;
+  top: 205px;
+  left: 485px;
+  color: rgb(41, 128, 109);
+}
+.Signup-page-box-right-icon2 {
+  position: absolute;
+  top: 280px;
+  color: rgb(41, 128, 109);
+  left: 485px;
+}
+.Signup-page-box-right-icon3 {
+  position: absolute;
+  top: 355px;
+  color: rgb(41, 128, 109);
+  left: 485px;
+}
+.Signup-page-box-right-button {
+  color: rgb(41, 128, 109);
+  position: absolute;
+  bottom: 130px;
+  left: 600px;
+}
+.Signup-page-box-right-bottom h8 {
+  position: absolute;
+  bottom: 80px;
+  left: 530px;
+}
+.Signup-page-box-right-bottom-icon1 {
+  position: absolute;
+  bottom: 30px;
+  color: blue;
+  left: 600px;
+  cursor: pointer;
+}
+.Signup-page-box-right-bottom-icon2 {
+  position: absolute;
+  bottom: 30px;
+  color: red;
+  left: 650px;
+  cursor: pointer;
+}
+.Signup-page-box-right-bottom-icon3 {
+  position: absolute;
+  bottom: 30px;
+  left: 700px;
+  color: rgb(80, 19, 80);
+  cursor: pointer;
+}

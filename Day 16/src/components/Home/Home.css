@@ -1,0 +1,14 @@
+.Home-static-titles {
+  display: flex;
+  flex-direction: column;
+}
+.Home-main-page {
+  display: flex;
+}
+.HomePageContent h1 {
+  color: blue;
+  position: absolute;
+  top: 400px;
+  left: 600px;
+  font-family: "Times New Roman", Times, serif;
+}
