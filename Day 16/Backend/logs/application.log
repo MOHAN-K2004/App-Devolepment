@@ -1,0 +1,243 @@
+2023-10-11T11:08:57.320+05:30  INFO 27052 --- [restartedMain] c.e.d.VendorManagementSystemApplication  : Starting VendorManagementSystemApplication using Java 17.0.8.1 with PID 27052 (C:\Users\MOHAN K\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Vendor_Management_System\target\classes started by MOHAN K in C:\Users\MOHAN K\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Vendor_Management_System)
+2023-10-11T11:08:57.329+05:30  INFO 27052 --- [restartedMain] c.e.d.VendorManagementSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-10-11T11:08:57.412+05:30  INFO 27052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-11T11:08:57.414+05:30  INFO 27052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-11T11:08:58.827+05:30  INFO 27052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11T11:08:58.930+05:30  INFO 27052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 4 JPA repository interfaces.
+2023-10-11T11:08:59.765+05:30  INFO 27052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2424 (http)
+2023-10-11T11:08:59.784+05:30  INFO 27052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-11T11:08:59.785+05:30  INFO 27052 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-11T11:08:59.886+05:30  INFO 27052 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2023-10-11T11:08:59.887+05:30  INFO 27052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2473 ms
+2023-10-11T11:09:00.070+05:30  INFO 27052 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11T11:09:00.182+05:30  INFO 27052 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-11T11:09:00.186+05:30  INFO 27052 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-11T11:09:00.408+05:30  INFO 27052 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-11T11:09:00.621+05:30  INFO 27052 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11T11:09:00.647+05:30  INFO 27052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-11T11:09:01.158+05:30  INFO 27052 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72be0901
+2023-10-11T11:09:01.161+05:30  INFO 27052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-11T11:09:01.243+05:30  WARN 27052 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11T11:09:01.599+05:30  INFO 27052 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-11T11:09:02.466+05:30  INFO 27052 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11T11:09:02.568+05:30  INFO 27052 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11T11:09:03.322+05:30  WARN 27052 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11T11:09:03.721+05:30  INFO 27052 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@457c0053, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19743bf3, org.springframework.security.web.context.SecurityContextHolderFilter@2ffe840c, org.springframework.security.web.header.HeaderWriterFilter@6cc124c5, org.springframework.web.filter.CorsFilter@59283bc9, org.springframework.security.web.authentication.logout.LogoutFilter@5bebcac1, com.example.demo.config.JwtAuthenticationFilter@137d70b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5865e1d9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e9522dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f8ab1a8, org.springframework.security.web.session.SessionManagementFilter@2bad411e, org.springframework.security.web.access.ExceptionTranslationFilter@55ed8f17, org.springframework.security.web.access.intercept.AuthorizationFilter@256f2768]
+2023-10-11T11:09:04.104+05:30  INFO 27052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-11T11:09:04.157+05:30  INFO 27052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2424 (http) with context path '/api/v1'
+2023-10-11T11:09:04.167+05:30  INFO 27052 --- [restartedMain] c.e.d.VendorManagementSystemApplication  : Started VendorManagementSystemApplication in 7.464 seconds (process running for 8.783)
+2023-10-11T11:10:02.160+05:30  INFO 27052 --- [http-nio-2424-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11T11:10:02.168+05:30  INFO 27052 --- [http-nio-2424-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-11T11:10:02.168+05:30  INFO 27052 --- [http-nio-2424-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-10-11T11:10:02.186+05:30 DEBUG 27052 --- [http-nio-2424-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/signup
+2023-10-11T11:10:02.240+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/signup
+2023-10-11T11:10:02.253+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:10:02.269+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/signup
+2023-10-11T11:11:26.952+05:30 DEBUG 27052 --- [http-nio-2424-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-11T11:11:26.953+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-11T11:11:26.953+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:11:26.953+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-11T11:11:27.220+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to find user 'abc@gmail.com'
+2023-10-11T11:11:27.233+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-11T11:11:27.250+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-11T11:11:27.250+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:11:27.250+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-11T11:11:35.992+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-11T11:11:35.992+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-11T11:11:35.992+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:11:36.000+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-11T11:11:36.125+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to find user 'abc@gmail.com'
+2023-10-11T11:11:36.128+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-11T11:11:36.128+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-11T11:11:36.133+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:11:36.133+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-11T11:12:31.087+05:30  INFO 27052 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-11T11:12:31.111+05:30  INFO 27052 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-11T11:12:31.115+05:30  INFO 27052 --- [Thread-5] o.a.c.c.C.[.[localhost].[/api/v1]        : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-11T11:12:31.121+05:30  WARN 27052 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [api#v1] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+2023-10-11T11:12:31.133+05:30  INFO 27052 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11T11:12:31.141+05:30  INFO 27052 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-11T11:12:31.154+05:30  INFO 27052 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-11T11:12:31.264+05:30  INFO 27052 --- [restartedMain] c.e.d.VendorManagementSystemApplication  : Starting VendorManagementSystemApplication using Java 17.0.8.1 with PID 27052 (C:\Users\MOHAN K\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Vendor_Management_System\target\classes started by MOHAN K in C:\Users\MOHAN K\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Vendor_Management_System)
+2023-10-11T11:12:31.265+05:30  INFO 27052 --- [restartedMain] c.e.d.VendorManagementSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-10-11T11:12:31.873+05:30  INFO 27052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11T11:12:31.905+05:30  INFO 27052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 4 JPA repository interfaces.
+2023-10-11T11:12:32.248+05:30  INFO 27052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2424 (http)
+2023-10-11T11:12:32.248+05:30  INFO 27052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-11T11:12:32.249+05:30  INFO 27052 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-11T11:12:32.292+05:30  INFO 27052 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2023-10-11T11:12:32.292+05:30  INFO 27052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1023 ms
+2023-10-11T11:12:32.377+05:30  INFO 27052 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11T11:12:32.399+05:30  INFO 27052 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-11T11:12:32.399+05:30  INFO 27052 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11T11:12:32.402+05:30  INFO 27052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-11T11:12:32.434+05:30  INFO 27052 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4adc7439
+2023-10-11T11:12:32.435+05:30  INFO 27052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-11T11:12:32.438+05:30  WARN 27052 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11T11:12:32.481+05:30  INFO 27052 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-11T11:12:32.601+05:30  INFO 27052 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11T11:12:32.889+05:30  INFO 27052 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11T11:12:33.170+05:30  WARN 27052 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11T11:12:33.422+05:30  INFO 27052 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e9b6817, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@721cda91, org.springframework.security.web.context.SecurityContextHolderFilter@53c32a46, org.springframework.security.web.header.HeaderWriterFilter@70043bac, org.springframework.web.filter.CorsFilter@51a7ee19, org.springframework.security.web.authentication.logout.LogoutFilter@205c3064, com.example.demo.config.JwtAuthenticationFilter@7aee305c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25ef454f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7467d305, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45326fa3, org.springframework.security.web.session.SessionManagementFilter@315e1ca4, org.springframework.security.web.access.ExceptionTranslationFilter@50a4cfce, org.springframework.security.web.access.intercept.AuthorizationFilter@3dd52a84]
+2023-10-11T11:12:33.616+05:30  INFO 27052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-11T11:12:33.640+05:30  INFO 27052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2424 (http) with context path '/api/v1'
+2023-10-11T11:12:33.647+05:30  INFO 27052 --- [restartedMain] c.e.d.VendorManagementSystemApplication  : Started VendorManagementSystemApplication in 2.427 seconds (process running for 218.262)
+2023-10-11T11:12:33.650+05:30  INFO 27052 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-11T11:12:35.066+05:30  INFO 27052 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-10-11T11:12:35.081+05:30  INFO 27052 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-11T11:12:35.084+05:30  WARN 27052 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [api#v1] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.8.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+2023-10-11T11:12:35.085+05:30  WARN 27052 --- [Thread-7] o.a.c.loader.WebappClassLoaderBase       : The web application [api#v1] appears to have started a thread named [HikariPool-2 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.8.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.8.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.8.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.8.1/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+2023-10-11T11:12:35.091+05:30  INFO 27052 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11T11:12:35.091+05:30  INFO 27052 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-10-11T11:12:35.100+05:30  INFO 27052 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-10-11T11:12:35.208+05:30  INFO 27052 --- [restartedMain] c.e.d.VendorManagementSystemApplication  : Starting VendorManagementSystemApplication using Java 17.0.8.1 with PID 27052 (C:\Users\MOHAN K\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Vendor_Management_System\target\classes started by MOHAN K in C:\Users\MOHAN K\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\Vendor_Management_System)
+2023-10-11T11:12:35.209+05:30  INFO 27052 --- [restartedMain] c.e.d.VendorManagementSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-10-11T11:12:35.649+05:30  INFO 27052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-11T11:12:35.674+05:30  INFO 27052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 4 JPA repository interfaces.
+2023-10-11T11:12:35.844+05:30  INFO 27052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2424 (http)
+2023-10-11T11:12:35.844+05:30  INFO 27052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-11T11:12:35.845+05:30  INFO 27052 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-11T11:12:35.875+05:30  INFO 27052 --- [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring embedded WebApplicationContext
+2023-10-11T11:12:35.875+05:30  INFO 27052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 663 ms
+2023-10-11T11:12:35.939+05:30  INFO 27052 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-11T11:12:35.950+05:30  INFO 27052 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-11T11:12:35.950+05:30  INFO 27052 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-11T11:12:35.951+05:30  INFO 27052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-10-11T11:12:35.972+05:30  INFO 27052 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6776fec5
+2023-10-11T11:12:35.973+05:30  INFO 27052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-10-11T11:12:35.973+05:30  WARN 27052 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-10-11T11:12:36.004+05:30  INFO 27052 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-11T11:12:36.098+05:30  INFO 27052 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-11T11:12:36.123+05:30  INFO 27052 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-11T11:12:36.415+05:30  WARN 27052 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-11T11:12:36.613+05:30  INFO 27052 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4067ebc6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@430d95c2, org.springframework.security.web.context.SecurityContextHolderFilter@4c151333, org.springframework.security.web.header.HeaderWriterFilter@268f2ac6, org.springframework.web.filter.CorsFilter@d8bde34, org.springframework.security.web.authentication.logout.LogoutFilter@e51a717, com.example.demo.config.JwtAuthenticationFilter@3fe62b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36feaf9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69f87a9d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c2968e0, org.springframework.security.web.session.SessionManagementFilter@7009852, org.springframework.security.web.access.ExceptionTranslationFilter@75f1ec1b, org.springframework.security.web.access.intercept.AuthorizationFilter@6716cca1]
+2023-10-11T11:12:36.781+05:30  INFO 27052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-11T11:12:36.807+05:30  INFO 27052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2424 (http) with context path '/api/v1'
+2023-10-11T11:12:36.814+05:30  INFO 27052 --- [restartedMain] c.e.d.VendorManagementSystemApplication  : Started VendorManagementSystemApplication in 1.647 seconds (process running for 221.43)
+2023-10-11T11:12:36.820+05:30  INFO 27052 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-11T11:12:48.289+05:30  INFO 27052 --- [http-nio-2424-exec-1] o.a.c.c.C.[.[localhost].[/api/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11T11:12:48.289+05:30  INFO 27052 --- [http-nio-2424-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-11T11:12:48.289+05:30  INFO 27052 --- [http-nio-2424-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-10-11T11:12:48.289+05:30 DEBUG 27052 --- [http-nio-2424-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/signup
+2023-10-11T11:12:48.305+05:30 DEBUG 27052 --- [http-nio-2424-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /auth/signup
+2023-10-11T11:12:48.305+05:30 DEBUG 27052 --- [http-nio-2424-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:12:48.305+05:30 DEBUG 27052 --- [http-nio-2424-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /auth/signup
+2023-10-11T11:12:56.996+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-11T11:12:57.005+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-11T11:12:57.005+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:12:57.010+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-11T11:12:57.293+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
+2023-10-11T11:12:57.299+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-11T11:12:57.299+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /error
+2023-10-11T11:12:57.302+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:12:57.303+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2023-10-11T11:13:10.351+05:30 DEBUG 27052 --- [http-nio-2424-exec-6] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/login
+2023-10-11T11:13:10.362+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /auth/login
+2023-10-11T11:13:10.362+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:13:10.364+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /auth/login
+2023-10-11T11:13:10.500+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2023-10-11T11:13:15.751+05:30 DEBUG 27052 --- [http-nio-2424-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:13:15.753+05:30 DEBUG 27052 --- [http-nio-2424-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:13:15.753+05:30 DEBUG 27052 --- [http-nio-2424-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:23:34.410+05:30 DEBUG 27052 --- [http-nio-2424-exec-3] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/postvendor
+2023-10-11T11:23:34.474+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /auth/postvendor
+2023-10-11T11:23:34.484+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:23:34.501+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /auth/postvendor
+2023-10-11T11:23:35.178+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:23:35.179+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:23:35.181+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:27:01.865+05:30 DEBUG 27052 --- [http-nio-2424-exec-9] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/postvendor
+2023-10-11T11:27:01.875+05:30 DEBUG 27052 --- [http-nio-2424-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /auth/postvendor
+2023-10-11T11:27:01.875+05:30 DEBUG 27052 --- [http-nio-2424-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:27:01.877+05:30 DEBUG 27052 --- [http-nio-2424-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /auth/postvendor
+2023-10-11T11:27:01.957+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:27:01.957+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:27:01.957+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:27:06.178+05:30 DEBUG 27052 --- [http-nio-2424-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /auth/getVendor?vendorid=8f2ffe06-5c8f-4989-bb80-160265b6d823
+2023-10-11T11:27:06.182+05:30 DEBUG 27052 --- [http-nio-2424-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:27:06.182+05:30 DEBUG 27052 --- [http-nio-2424-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /auth/getVendor?vendorid=8f2ffe06-5c8f-4989-bb80-160265b6d823
+2023-10-11T11:27:29.004+05:30 DEBUG 27052 --- [http-nio-2424-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /auth/getVendor?vendorid=8f2ffe06-5c8f-4989-bb80-160265b6d823
+2023-10-11T11:27:29.004+05:30 DEBUG 27052 --- [http-nio-2424-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:27:29.004+05:30 DEBUG 27052 --- [http-nio-2424-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /auth/getVendor?vendorid=8f2ffe06-5c8f-4989-bb80-160265b6d823
+2023-10-11T11:37:03.717+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:37:03.726+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:37:03.726+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:41:42.694+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/postvendor
+2023-10-11T11:41:42.708+05:30 DEBUG 27052 --- [http-nio-2424-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /auth/postvendor
+2023-10-11T11:41:42.712+05:30 DEBUG 27052 --- [http-nio-2424-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:41:42.713+05:30 DEBUG 27052 --- [http-nio-2424-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /auth/postvendor
+2023-10-11T11:41:42.832+05:30 DEBUG 27052 --- [http-nio-2424-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:41:42.832+05:30 DEBUG 27052 --- [http-nio-2424-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:41:42.835+05:30 DEBUG 27052 --- [http-nio-2424-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:41:50.080+05:30 DEBUG 27052 --- [http-nio-2424-exec-4] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/deletevendor?vendorid=68871a31-bc47-4958-a834-2123ece5ada0
+2023-10-11T11:41:50.087+05:30 DEBUG 27052 --- [http-nio-2424-exec-4] o.s.security.web.FilterChainProxy        : Securing DELETE /auth/deletevendor?vendorid=68871a31-bc47-4958-a834-2123ece5ada0
+2023-10-11T11:41:50.092+05:30 DEBUG 27052 --- [http-nio-2424-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:41:50.092+05:30 DEBUG 27052 --- [http-nio-2424-exec-4] o.s.security.web.FilterChainProxy        : Secured DELETE /auth/deletevendor?vendorid=68871a31-bc47-4958-a834-2123ece5ada0
+2023-10-11T11:41:50.379+05:30 DEBUG 27052 --- [http-nio-2424-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:41:50.382+05:30 DEBUG 27052 --- [http-nio-2424-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:41:50.382+05:30 DEBUG 27052 --- [http-nio-2424-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:41:50.555+05:30 DEBUG 27052 --- [http-nio-2424-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/deletevendor?vendorid=7429f841-b5b2-4775-bb3f-c2dc7a315ad0
+2023-10-11T11:41:50.565+05:30 DEBUG 27052 --- [http-nio-2424-exec-3] o.s.security.web.FilterChainProxy        : Securing DELETE /auth/deletevendor?vendorid=7429f841-b5b2-4775-bb3f-c2dc7a315ad0
+2023-10-11T11:41:50.565+05:30 DEBUG 27052 --- [http-nio-2424-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:41:50.568+05:30 DEBUG 27052 --- [http-nio-2424-exec-3] o.s.security.web.FilterChainProxy        : Secured DELETE /auth/deletevendor?vendorid=7429f841-b5b2-4775-bb3f-c2dc7a315ad0
+2023-10-11T11:41:50.591+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:41:50.591+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:41:50.591+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:41:52.166+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/deletevendor?vendorid=8f2ffe06-5c8f-4989-bb80-160265b6d823
+2023-10-11T11:41:52.170+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.security.web.FilterChainProxy        : Securing DELETE /auth/deletevendor?vendorid=8f2ffe06-5c8f-4989-bb80-160265b6d823
+2023-10-11T11:41:52.170+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:41:52.170+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.security.web.FilterChainProxy        : Secured DELETE /auth/deletevendor?vendorid=8f2ffe06-5c8f-4989-bb80-160265b6d823
+2023-10-11T11:41:52.189+05:30 DEBUG 27052 --- [http-nio-2424-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:41:52.189+05:30 DEBUG 27052 --- [http-nio-2424-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:41:52.189+05:30 DEBUG 27052 --- [http-nio-2424-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:41:56.214+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.security.web.FilterChainProxy        : Securing OPTIONS /auth/postvendor
+2023-10-11T11:41:56.219+05:30 DEBUG 27052 --- [http-nio-2424-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /auth/postvendor
+2023-10-11T11:41:56.219+05:30 DEBUG 27052 --- [http-nio-2424-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:41:56.219+05:30 DEBUG 27052 --- [http-nio-2424-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /auth/postvendor
+2023-10-11T11:41:56.268+05:30 DEBUG 27052 --- [http-nio-2424-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:41:56.271+05:30 DEBUG 27052 --- [http-nio-2424-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:41:56.274+05:30 DEBUG 27052 --- [http-nio-2424-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:42:23.951+05:30 DEBUG 27052 --- [http-nio-2424-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /auth/getVendor?vendorid=132a3ed2-6971-4f00-b7ae-465f7406beff
+2023-10-11T11:42:23.953+05:30 DEBUG 27052 --- [http-nio-2424-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:42:23.953+05:30 DEBUG 27052 --- [http-nio-2424-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /auth/getVendor?vendorid=132a3ed2-6971-4f00-b7ae-465f7406beff
+2023-10-11T11:42:25.048+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:42:25.048+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:42:25.048+05:30 DEBUG 27052 --- [http-nio-2424-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:42:26.579+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:42:26.579+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:42:26.581+05:30 DEBUG 27052 --- [http-nio-2424-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:42:27.695+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:42:27.696+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:42:27.697+05:30 DEBUG 27052 --- [http-nio-2424-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:42:28.521+05:30 DEBUG 27052 --- [http-nio-2424-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:42:28.521+05:30 DEBUG 27052 --- [http-nio-2424-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:42:28.521+05:30 DEBUG 27052 --- [http-nio-2424-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
+2023-10-11T11:43:51.064+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /auth/getAll
+2023-10-11T11:43:51.068+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-11T11:43:51.068+05:30 DEBUG 27052 --- [http-nio-2424-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /auth/getAll
